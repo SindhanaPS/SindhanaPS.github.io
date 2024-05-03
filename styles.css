@@ -233,3 +233,29 @@ footer {
     color: #000;
 }
 
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Decrease font size for better readability on mobile devices */
+    }
+
+    header h1 {
+        font-size: 18px; /* Adjust header font size for mobile devices */
+    }
+
+    nav ul {
+        font-size: 14px; /* Decrease navigation font size for mobile devices */
+    }
+
+    nav li a {
+        padding: 8px; /* Adjust navigation link padding for mobile devices */
+    }
+
+    .profile-text p {
+        font-size: 14px; /* Decrease paragraph font size for mobile devices */
+    }
+
+    .social-links li a {
+        font-size: 20px; /* Adjust social link font size for mobile devices */
+    }
+}
