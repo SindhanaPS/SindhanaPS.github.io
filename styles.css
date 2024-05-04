@@ -463,6 +463,7 @@ footer {
 
 #first-part {
     color: #212A31;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -477,6 +478,7 @@ footer {
     font-size: 12px;
     text-align: justify;
     margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
