@@ -211,6 +211,7 @@ footer {
 #first-part {
     color: #212A31;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #second-part {
@@ -219,14 +220,13 @@ footer {
     font-family: 'Raleway', sans-serif;
 }
 
-.profile-text2  {
-    color: #050A44;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
+.profile-text2 a {
+    color: #212A31;
+    font-size: 16px;
     text-align: justify;
     margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
 }
-
 
 /* Social links styles */
 .social-links {
@@ -465,6 +465,7 @@ footer {
 
 #first-part {
     color: #212A31;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -472,6 +473,14 @@ footer {
     color: #050A44;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
+}
+
+.profile-text2 a {
+    color: #212A31;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
