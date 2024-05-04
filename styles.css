@@ -262,7 +262,7 @@ footer {
 
 /* Global styles */
 body {
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">;
     background-color: #EDE8F5;
     font-size: 14px;
 }
@@ -287,7 +287,7 @@ header {
 }
 
 header h1 {
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">;
     margin: 5px; /* Reset any default margins */
     padding: 5px; /* Reset any default padding */
     font-size: 18px; /* Adjust the font size as needed */
