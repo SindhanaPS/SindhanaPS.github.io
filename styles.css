@@ -208,7 +208,18 @@ footer {
     margin-bottom: 10px;
 }
 
-.profile-text2 a {
+#first-part {
+    color: #212A31;
+    font-size: 20px;
+}
+
+#second-part {
+    color: #050A44;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profile-text2  {
     color: #050A44;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
@@ -452,13 +463,17 @@ footer {
     margin-bottom: 10px;
 }
 
-.profile-text2 a {
+#first-part {
+    color: #212A31;
+    font-size: 14px;
+}
+
+#second-part {
     color: #050A44;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    text-align: justify;
-    margin-bottom: 10px;
 }
+
 
 /* Social links styles */
 .social-links {
