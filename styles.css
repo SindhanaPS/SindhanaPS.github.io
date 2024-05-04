@@ -206,13 +206,11 @@ footer {
     font-size: 20px;
     text-align: justify;
     margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
 }
 
 #first-part {
     color: #212A31;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
 }
 
 #second-part {
@@ -226,7 +224,6 @@ footer {
     font-size: 16px;
     text-align: justify;
     margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Social links styles */
@@ -466,7 +463,6 @@ footer {
 
 #first-part {
     color: #212A31;
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -481,7 +477,6 @@ footer {
     font-size: 12px;
     text-align: justify;
     margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
 }
 
 
