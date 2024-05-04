@@ -235,27 +235,232 @@ footer {
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Decrease font size for better readability on mobile devices */
-    }
 
-    header h1 {
-        font-size: 18px; /* Adjust header font size for mobile devices */
-    }
 
-    nav ul {
-        font-size: 14px; /* Decrease navigation font size for mobile devices */
-    }
+/* Global styles */
+body {
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    font-family: 'Roboto', sans-serif;
+    background-color: #EDE8F5;
+    font-size: 14px;
+}
 
-    nav li a {
-        padding: 8px; /* Adjust navigation link padding for mobile devices */
-    }
+/* Header styles */
+header {
+    display: flex;
+    background-color: #EDE8F5;
+    color: #212A31;
+    padding: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 14px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure header stays on top of other content */
+    border-bottom: 2px solid #ccc; /* Add a border line */
+    text-align: left;
+    justify-content: space-between; /* Align items at each end */
+    align-items: center; /* Center vertically */
+}
 
-    .profile-text p {
-        font-size: 14px; /* Decrease paragraph font size for mobile devices */
-    }
+header h1 {
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    margin: 0; /* Reset any default margins */
+    padding: 0; /* Reset any default padding */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: 'Raleway', sans-serif;
+}
 
-    .social-links li a {
-        font-size: 20px; /* Adjust social link font size for mobile devices */
-    }
+/* Navigation styles */
+nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    overflow: hidden;
+    font-size: 14px;
+    background-color: #EDE8F5;
+    margin-left: auto;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    color: #212A31;
+    text-align: center;
+    padding: 1px 1px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #EDE8F5;
+}
+
+/* Main content styles */
+main {
+    padding: 2px;
+    align-items: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #EDE8F5;
+    color: #212A31;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Apply the default color */
+#google-scholar-icon svg{
+    fill: #212A31;
+}
+
+/* Apply color on hover */
+#google-scholar-icon:hover svg{
+    fill: #000;
+}
+
+/* Style for the container */
+.container {
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex; /* Use flexbox */
+    margin-bottom: 5px;
+}
+
+/* Style for the left column */
+.left-column {
+    flex: 1; /* Take up 1/2 of the available space */
+    display: flex; /* Use flexbox for left column */
+    padding: 2px;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+/* Style for the right column */
+.right-column {
+    flex: 2; /* Take up 1/2 of the available space */
+    padding: 2px;
+}
+
+.left-column2 {
+    flex: 1; /* Take up 1/2 of the available space */
+    margin-top: 5px;
+    margin-left: 1px;
+    padding: 0px;
+    display: flex; /* Use flexbox for left column */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+/* Style for the image */
+.left-column2 img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #000;
+}
+
+/* Style for the right column */
+.right-column2 {
+    flex: 2; /* Take up 1/2 of the available space */
+    margin-top: 5px;
+    margin-right: 1px;
+    margin-left: 2px;
+}
+
+.container2 {
+    margin-left: 17px;
+    margin-right: 17px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.container3 {
+    margin-left: 4px;
+    margin-right: 0px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+
+/* Profile picture styles */
+
+.profile-picture {
+    text-align: center;
+    margin-right: 2px;
+    flex: 0 0 auto; /* Allow the profile picture to grow and shrink, but not to wrap */
+}
+
+.profile-picture img {
+    float: left; /* or "right" if you want it on the right side */
+    border-radius: 50%;
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+}
+
+.profile-text {
+    margin-left: 2px; /* Adjust the margin as needed */
+    line-height: 1.2; /* You can adjust the value as needed */
+    flex: 1 1 auto; /* Allow the profile text to grow and shrink, but not to wrap */
+}
+
+.profile-text p {
+    color: #212A31;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 2px;
+}
+
+.profile-text2 {
+    margin-left: 2px; /* Adjust the margin as needed */
+    line-height: 1.2; /* You can adjust the value as needed */
+    flex: 1 1 auto; /* Allow the profile text to grow and shrink, but not to wrap */
+}
+
+.profile-text2 p {
+    color: #212A31;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 1px;
+}
+
+/* Social links styles */
+.social-links {
+    text-align: center;
+    margin-top: 1px; /* Add margin to separate social links from the profile picture */
+    flex-basis: 100%; /* Ensure social links span the full width */
+}
+
+.social-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for social links */
+    justify-content: center; /* Center social links horizontally */
+}
+
+.social-links li {
+    margin-right: 2px; /* Adjust margin between social links */
+}
+
+.social-links li a {
+    color: #212A31;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-links li a:hover {
+    color: #000;
+}
+
 }
