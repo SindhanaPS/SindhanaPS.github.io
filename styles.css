@@ -208,6 +208,15 @@ footer {
     margin-bottom: 10px;
 }
 
+.profile-text2 a {
+    color: #050A44;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+
 /* Social links styles */
 .social-links {
     text-align: center;
@@ -257,8 +266,8 @@ header {
     background-color: #EDE8F5;
     color: #212A31;
     padding: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 14px;
     position: -webkit-sticky; /* For Safari */
     position: sticky;
@@ -272,8 +281,8 @@ header {
 
 header h1 {
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    margin: 0; /* Reset any default margins */
-    padding: 0; /* Reset any default padding */
+    margin: 5px; /* Reset any default margins */
+    padding: 5px; /* Reset any default padding */
     font-size: 18px; /* Adjust the font size as needed */
     font-family: 'Raleway', sans-serif;
 }
@@ -338,10 +347,10 @@ footer {
 
 /* Style for the container */
 .container {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex; /* Use flexbox */
-    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 /* Style for the left column */
@@ -361,9 +370,9 @@ footer {
 
 .left-column2 {
     flex: 1; /* Take up 1/2 of the available space */
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
     display: flex; /* Use flexbox for left column */
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center elements horizontally */
@@ -380,9 +389,9 @@ footer {
 /* Style for the right column */
 .right-column2 {
     flex: 2; /* Take up 1/2 of the available space */
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .container2 {
@@ -394,7 +403,7 @@ footer {
 }
 
 .container3 {
-    margin-left: 0px;
+    margin-left: 5px;
     margin-right: 0px;
     font-size: 14px;
     display: flex;
@@ -431,7 +440,7 @@ footer {
 }
 
 .profile-text2 {
-    margin-left: 0px; /* Adjust the margin as needed */
+    margin-left: 5px; /* Adjust the margin as needed */
     line-height: 1.2; /* You can adjust the value as needed */
     flex: 1 1 auto; /* Allow the profile text to grow and shrink, but not to wrap */
 }
@@ -440,19 +449,27 @@ footer {
     color: #212A31;
     font-size: 14px;
     text-align: justify;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.profile-text2 a {
+    color: #050A44;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
 /* Social links styles */
 .social-links {
     text-align: center;
-    margin-top: 0px; /* Add margin to separate social links from the profile picture */
+    margin-top: 5px; /* Add margin to separate social links from the profile picture */
     flex-basis: 100%; /* Ensure social links span the full width */
 }
 
 .social-links ul {
     list-style-type: none;
-    padding: 0;
+    padding: 2px;
     display: flex; /* Use flexbox for social links */
     justify-content: center; /* Center social links horizontally */
 }
