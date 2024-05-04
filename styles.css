@@ -236,7 +236,6 @@ footer {
 /* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
 
-
 /* Global styles */
 body {
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -250,9 +249,9 @@ header {
     display: flex;
     background-color: #EDE8F5;
     color: #212A31;
-    padding: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
     font-size: 14px;
     position: -webkit-sticky; /* For Safari */
     position: sticky;
@@ -293,7 +292,7 @@ nav li a {
     display: inline-block;
     color: #212A31;
     text-align: center;
-    padding: 1px 1px;
+    padding: 0px 0px;
     text-decoration: none;
 }
 
@@ -303,7 +302,7 @@ nav li a:hover {
 
 /* Main content styles */
 main {
-    padding: 2px;
+    padding: 0px;
     align-items: center;
 }
 
@@ -311,7 +310,7 @@ main {
 footer {
     background-color: #EDE8F5;
     color: #212A31;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     font-size: 14px;
     position: fixed;
@@ -332,17 +331,17 @@ footer {
 
 /* Style for the container */
 .container {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
     display: flex; /* Use flexbox */
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 /* Style for the left column */
 .left-column {
     flex: 1; /* Take up 1/2 of the available space */
     display: flex; /* Use flexbox for left column */
-    padding: 2px;
+    padding: 0px;
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center elements horizontally */
 }
@@ -350,13 +349,13 @@ footer {
 /* Style for the right column */
 .right-column {
     flex: 2; /* Take up 1/2 of the available space */
-    padding: 2px;
+    padding: 0px;
 }
 
 .left-column2 {
     flex: 1; /* Take up 1/2 of the available space */
-    margin-top: 5px;
-    margin-left: 1px;
+    margin-top: 0px;
+    margin-left: 0px;
     padding: 0px;
     display: flex; /* Use flexbox for left column */
     flex-direction: column; /* Stack elements vertically */
@@ -373,20 +372,20 @@ footer {
 /* Style for the right column */
 .right-column2 {
     flex: 2; /* Take up 1/2 of the available space */
-    margin-top: 5px;
-    margin-right: 1px;
-    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .container2 {
-    margin-left: 17px;
-    margin-right: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
     display: flex;
     flex-direction: column; /* Stack elements vertically */
 }
 
 .container3 {
-    margin-left: 4px;
+    margin-left: 0px;
     margin-right: 0px;
     font-size: 14px;
     display: flex;
@@ -398,7 +397,7 @@ footer {
 
 .profile-picture {
     text-align: center;
-    margin-right: 2px;
+    margin-right: 0px;
     flex: 0 0 auto; /* Allow the profile picture to grow and shrink, but not to wrap */
 }
 
@@ -410,7 +409,7 @@ footer {
 }
 
 .profile-text {
-    margin-left: 2px; /* Adjust the margin as needed */
+    margin-left: 0px; /* Adjust the margin as needed */
     line-height: 1.2; /* You can adjust the value as needed */
     flex: 1 1 auto; /* Allow the profile text to grow and shrink, but not to wrap */
 }
@@ -419,11 +418,11 @@ footer {
     color: #212A31;
     font-size: 14px;
     text-align: justify;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
 }
 
 .profile-text2 {
-    margin-left: 2px; /* Adjust the margin as needed */
+    margin-left: 0px; /* Adjust the margin as needed */
     line-height: 1.2; /* You can adjust the value as needed */
     flex: 1 1 auto; /* Allow the profile text to grow and shrink, but not to wrap */
 }
@@ -432,13 +431,13 @@ footer {
     color: #212A31;
     font-size: 14px;
     text-align: justify;
-    margin-bottom: 1px;
+    margin-bottom: 0px;
 }
 
 /* Social links styles */
 .social-links {
     text-align: center;
-    margin-top: 1px; /* Add margin to separate social links from the profile picture */
+    margin-top: 0px; /* Add margin to separate social links from the profile picture */
     flex-basis: 100%; /* Ensure social links span the full width */
 }
 
@@ -450,7 +449,7 @@ footer {
 }
 
 .social-links li {
-    margin-right: 2px; /* Adjust margin between social links */
+    margin-right: 0px; /* Adjust margin between social links */
 }
 
 .social-links li a {
